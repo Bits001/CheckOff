@@ -7,7 +7,7 @@ class AppTheme {
   const AppTheme._();
 
   static final light = FlexThemeData.light(
-    scheme: FlexScheme.indigo,
+    scheme: FlexScheme.bahamaBlue,
     surfaceMode: FlexSurfaceMode.highScaffoldLowSurfacesVariantDialog,
     blendLevel: 40,
     appBarStyle: FlexAppBarStyle.primary,
@@ -19,7 +19,7 @@ class AppTheme {
     swapColors: true,
     lightIsWhite: true,
     visualDensity: FlexColorScheme.comfortablePlatformDensity,
-    fontFamily: GoogleFonts.dekko().fontFamily,
+    fontFamily: GoogleFonts.poppins().fontFamily,
     subThemesData: const FlexSubThemesData(
       useTextTheme: true,
       fabUseShape: true,
